@@ -1,0 +1,5 @@
+image {i}:
+quality = 151.9358278561982
+sim = 0.9430234432220459
+num_boxes = 28
+average_box_area_norm = 20.577739197530864

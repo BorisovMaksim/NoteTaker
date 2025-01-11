@@ -1,0 +1,35 @@
+\documentclass{beamer}
+\usepackage{fancyvrb}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\begin{frame}{}
+  \begin{block}{Title of the Lecture}
+    Description of the lecture
+  \end{block}
+  \begin{columns}
+    \column{0.5\textwidth}
+      <1-> A set $A$ is a subset of $B$, $ACB$, if $a \in A \implies a \in B$
+      <2-> Two sets are equal, $A=B$, if $A \subseteq B$ and $B \subseteq A$
+      <3-> A is a proper subset of $B$, $ASB$, if $ACB$ and $A \neq ASB$
+      <4-> Set building notation $\{ x \mid P(x) \}$
+
+    \column{0.5\textwidth}
+      <1-> 
+        \begin{enumerate}
+          \item $N=\{1,2,3,4,\ldots\}$
+          \item $Z=\{0,1,-1,-2,\ldots\}$
+          \item $Q=\{m \div n \mid m,n \in Z, n \neq 0\}$
+          \item $R = \{\text{real numbers} \cup \{\text{irrational numbers}\} \}$ along with irrationals like $\pi, \sqrt{2}, \ldots$
+          \item $N=\{2m-1 \mid m \in N\}$
+          \item $C=\{1,3,5,\ldots\}$
+        \end{enumerate}
+      <2-> The union of $A,B$ is the set $A \cup B = \{x \mid x \in A \text{ or } x \in B\}$
+      <3-> The intersection of $A,B$ is the set $A \cap B = \{x \mid x \in A \text{ and } x \in B\}$
+      <4-> The set $P(x)$
+  \end{columns}
+\end{frame}
+
+\end{document}
